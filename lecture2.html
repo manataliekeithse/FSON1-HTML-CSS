@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Margin and Padding</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./lecture2.css" />
+  </head>
+  <body>
+    <article class="post">
+      <div class="post-thumb">
+        <img
+          class="post-image"
+          src="https://cdn.pixabay.com/photo/2017/11/09/21/41/cat-2934720_1280.jpg"
+          alt="Tabby cat in a funny sitting position"
+        />
+      </div>
+      <h1 class="post-heading">All about cats</h1>
+      <p class="post-text">
+        Lorem ipsum dolor sit, amet consectetur elit omnis adipisicing. Omnis
+        voluptatibus sit reprehenderit iure est eveniet saepe fugit debitis
+        laborum odio voluptatem repellat eaque voluptatum quos neque optio,
+        perspiciatis aperiam error odit praesentium consequatur totam maiores.
+        Minus similique molestias, eveniet delectus eaque dignissimos! Id
+        deserunt magni doloremque, corrupti consectetur vero veniam!
+      </p>
+    </article>
+
+    <!-- VERTICAL MARGIN COLLAPSE -->
+    <div class="box top"></div>
+    <div class="box bottom"></div>
+
+    <!-- Vertical margin of a nested box - Higher within parent and child -->
+    <div class="outer-box">
+      <div class="inner-box"></div>
+    </div>
+  </body>
+</html>

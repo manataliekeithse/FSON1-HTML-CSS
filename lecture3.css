@@ -1,0 +1,45 @@
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.post {
+  padding-top: 100px;
+  padding-right: 50px;
+  padding-bottom: 70px;
+  padding-left: 60px;
+
+  max-width: 400px;
+  background-color: #fff;
+  border: 2px dashed #2a2a2a;
+}
+
+.post-thumb {
+  margin-bottom: 30px;
+  border: 2px dashed tomato;
+}
+
+.post-heading {
+  margin-top: 0;
+  margin-bottom: 20px;
+
+  border: 2px dashed teal;
+}
+
+/* Inline Elements */
+
+.link-inline-block {
+  display: inline-block;
+  background-color: tomato;
+  color: white;
+  width: 500px;
+  height: 1000px;
+
+  /* It works */
+
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
